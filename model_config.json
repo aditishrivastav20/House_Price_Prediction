@@ -1,0 +1,344 @@
+{
+  "feature_columns": [
+    "bedrooms",
+    "bathrooms",
+    "sqft_living",
+    "sqft_lot",
+    "floors",
+    "waterfront",
+    "view",
+    "condition",
+    "sqft_above",
+    "sqft_basement",
+    "yr_built",
+    "yr_renovated",
+    "city",
+    "statezip",
+    "country"
+  ],
+  "numeric_features": [
+    "bedrooms",
+    "bathrooms",
+    "sqft_living",
+    "sqft_lot",
+    "floors",
+    "waterfront",
+    "view",
+    "condition",
+    "sqft_above",
+    "sqft_basement",
+    "yr_built",
+    "yr_renovated"
+  ],
+  "categorical_features": [
+    "city",
+    "statezip",
+    "country"
+  ],
+  "numeric_defaults": {
+    "bedrooms": 3.0,
+    "bathrooms": 2.25,
+    "sqft_living": 1980.0,
+    "sqft_lot": 7683.0,
+    "floors": 1.5,
+    "waterfront": 0.0,
+    "view": 0.0,
+    "condition": 3.0,
+    "sqft_above": 1590.0,
+    "sqft_basement": 0.0,
+    "yr_built": 1976.0,
+    "yr_renovated": 0.0
+  },
+  "numeric_ranges": {
+    "bedrooms": {
+      "min": 0.0,
+      "max": 9.0
+    },
+    "bathrooms": {
+      "min": 0.0,
+      "max": 8.0
+    },
+    "sqft_living": {
+      "min": 370.0,
+      "max": 13540.0
+    },
+    "sqft_lot": {
+      "min": 638.0,
+      "max": 1074218.0
+    },
+    "floors": {
+      "min": 1.0,
+      "max": 3.5
+    },
+    "waterfront": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "view": {
+      "min": 0.0,
+      "max": 4.0
+    },
+    "condition": {
+      "min": 1.0,
+      "max": 5.0
+    },
+    "sqft_above": {
+      "min": 370.0,
+      "max": 9410.0
+    },
+    "sqft_basement": {
+      "min": 0.0,
+      "max": 4820.0
+    },
+    "yr_built": {
+      "min": 1900.0,
+      "max": 2014.0
+    },
+    "yr_renovated": {
+      "min": 0.0,
+      "max": 2014.0
+    }
+  },
+  "integer_features": [
+    "bedrooms",
+    "sqft_living",
+    "sqft_lot",
+    "waterfront",
+    "view",
+    "condition",
+    "sqft_above",
+    "sqft_basement",
+    "yr_built",
+    "yr_renovated"
+  ],
+  "category_options": {
+    "city": [
+      "Algona",
+      "Auburn",
+      "Beaux Arts Village",
+      "Bellevue",
+      "Black Diamond",
+      "Bothell",
+      "Burien",
+      "Carnation",
+      "Clyde Hill",
+      "Covington",
+      "Des Moines",
+      "Duvall",
+      "Enumclaw",
+      "Fall City",
+      "Federal Way",
+      "Inglewood-Finn Hill",
+      "Issaquah",
+      "Kenmore",
+      "Kent",
+      "Kirkland",
+      "Lake Forest Park",
+      "Maple Valley",
+      "Medina",
+      "Mercer Island",
+      "Milton",
+      "Newcastle",
+      "Normandy Park",
+      "North Bend",
+      "Pacific",
+      "Preston",
+      "Ravensdale",
+      "Redmond",
+      "Renton",
+      "Sammamish",
+      "SeaTac",
+      "Seattle",
+      "Shoreline",
+      "Skykomish",
+      "Snoqualmie",
+      "Snoqualmie Pass",
+      "Tukwila",
+      "Vashon",
+      "Woodinville",
+      "Yarrow Point"
+    ],
+    "statezip": [
+      "WA 98001",
+      "WA 98002",
+      "WA 98003",
+      "WA 98004",
+      "WA 98005",
+      "WA 98006",
+      "WA 98007",
+      "WA 98008",
+      "WA 98010",
+      "WA 98011",
+      "WA 98014",
+      "WA 98019",
+      "WA 98022",
+      "WA 98023",
+      "WA 98024",
+      "WA 98027",
+      "WA 98028",
+      "WA 98029",
+      "WA 98030",
+      "WA 98031",
+      "WA 98032",
+      "WA 98033",
+      "WA 98034",
+      "WA 98038",
+      "WA 98039",
+      "WA 98040",
+      "WA 98042",
+      "WA 98045",
+      "WA 98047",
+      "WA 98050",
+      "WA 98051",
+      "WA 98052",
+      "WA 98053",
+      "WA 98055",
+      "WA 98056",
+      "WA 98057",
+      "WA 98058",
+      "WA 98059",
+      "WA 98065",
+      "WA 98068",
+      "WA 98070",
+      "WA 98072",
+      "WA 98074",
+      "WA 98075",
+      "WA 98077",
+      "WA 98092",
+      "WA 98102",
+      "WA 98103",
+      "WA 98105",
+      "WA 98106",
+      "WA 98107",
+      "WA 98108",
+      "WA 98109",
+      "WA 98112",
+      "WA 98115",
+      "WA 98116",
+      "WA 98117",
+      "WA 98118",
+      "WA 98119",
+      "WA 98122",
+      "WA 98125",
+      "WA 98126",
+      "WA 98133",
+      "WA 98136",
+      "WA 98144",
+      "WA 98146",
+      "WA 98148",
+      "WA 98155",
+      "WA 98166",
+      "WA 98168",
+      "WA 98177",
+      "WA 98178",
+      "WA 98188",
+      "WA 98198",
+      "WA 98199",
+      "WA 98288",
+      "WA 98354"
+    ],
+    "country": [
+      "USA"
+    ]
+  },
+  "best_model": "Random Forest",
+  "metrics": {
+    "Linear Regression": {
+      "MAE": 166197.0,
+      "RMSE": 986902.77,
+      "R2": 0.045
+    },
+    "Decision Tree": {
+      "MAE": 188347.63,
+      "RMSE": 989807.28,
+      "R2": 0.0393
+    },
+    "Random Forest": {
+      "MAE": 159862.0,
+      "RMSE": 983978.03,
+      "R2": 0.0506
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "numbers__sqft_living",
+      "importance": 0.5467031982496552
+    },
+    {
+      "feature": "numbers__yr_built",
+      "importance": 0.05059797419555327
+    },
+    {
+      "feature": "numbers__sqft_basement",
+      "importance": 0.04117989677086673
+    },
+    {
+      "feature": "numbers__sqft_above",
+      "importance": 0.04001391615924088
+    },
+    {
+      "feature": "categories__statezip_WA 98004",
+      "importance": 0.03780172631689754
+    },
+    {
+      "feature": "numbers__sqft_lot",
+      "importance": 0.034397182169583554
+    },
+    {
+      "feature": "numbers__view",
+      "importance": 0.02850563284181417
+    },
+    {
+      "feature": "categories__city_Seattle",
+      "importance": 0.023006035307210862
+    },
+    {
+      "feature": "numbers__bathrooms",
+      "importance": 0.02248801428851551
+    },
+    {
+      "feature": "categories__city_Bellevue",
+      "importance": 0.015260450881275915
+    },
+    {
+      "feature": "numbers__condition",
+      "importance": 0.011196476583649438
+    },
+    {
+      "feature": "categories__statezip_WA 98112",
+      "importance": 0.011023048444354793
+    },
+    {
+      "feature": "numbers__yr_renovated",
+      "importance": 0.00970966616979413
+    },
+    {
+      "feature": "numbers__bedrooms",
+      "importance": 0.009452936391144957
+    },
+    {
+      "feature": "categories__city_Mercer Island",
+      "importance": 0.00860322219851365
+    },
+    {
+      "feature": "categories__statezip_WA 98040",
+      "importance": 0.008376208582557493
+    },
+    {
+      "feature": "categories__city_Redmond",
+      "importance": 0.006939152752419279
+    },
+    {
+      "feature": "numbers__floors",
+      "importance": 0.0067987614400027985
+    },
+    {
+      "feature": "categories__city_Medina",
+      "importance": 0.006497818622574393
+    },
+    {
+      "feature": "numbers__waterfront",
+      "importance": 0.006259149376487636
+    }
+  ]
+}
